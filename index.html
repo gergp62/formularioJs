@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario JS</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Ejemplo de formulario modificable</h1>
+    </header>
+    
+    <section>
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Dni</th>
+                </tr>
+
+                
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Pablo</td>
+                    <td>25</td>
+                    <td>22555444</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                    <td>19777888</td>
+                </tr>
+
+
+            </tbody>
+
+
+
+        </table>
+        <section class="insertar">
+            <h2 class="titulo-form">Agregar Persona </h2>
+
+            <form class="form" id="form-adicionar">
+                <div class="grupo">
+                    <label for="nombre">Nombre:</label>
+					<input id="nombre" name="nombre" type="text" placeholder="digite el nombre " class="campo">
+                </div>
+                <div class="grupo">
+                    <label for="edad">Edad:</label>
+					<input id="edad" name="edad" type="text" placeholder="digite la edad " class="campo">
+                </div>
+                <div class="grupo">
+                    <label for="dni">DNI:</label>
+					<input id="dni" name="dni" type="text" placeholder="digite el dni " class="campo">
+                </div>
+                <button type="submit" class="boton">Enviar</button>
+
+
+            </form>
+
+
+
+        </section>
+
+        
+    </section>  
+    
+
+
+
+
+    <script src="js/function.js"></script>
+</body>
+</html>
