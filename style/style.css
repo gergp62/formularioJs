@@ -1,4 +1,8 @@
- 
+ .navbar-brand{
+     color:green;
+ }
+
+
  header{
      text-align: center;
      width: 50%;
@@ -10,7 +14,7 @@
      text-align: center;
      font-weight: bold;
      background-color: lightsalmon;
-     margin: 0;
+     margin: 25px 0;
      padding: 10px;
      font-style: italic;
      
@@ -61,6 +65,12 @@
      margin: 8px 0;
      font-size: 18px;
      font-weight: bold;
+ }
+
+ footer {
+     color:blue;
+     text-align: right;
+     margin: 25px 5px;
  }
 
  
