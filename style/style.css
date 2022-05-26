@@ -1,3 +1,7 @@
+body{
+     background:linear-gradient(white, lightgrey);
+ }
+ 
  .navbar-brand{
      color:green;
  }
@@ -25,7 +29,7 @@
     width: 25%;
     margin: 15px auto;
     
-    border: 1px solid black !important;
+    border: 1px solid black ;
     border-collapse: collapse;
  }
 
